@@ -54,18 +54,6 @@ const List = () => {
   };
 
   useEffect(() => {
-    // async function fetchTours() {
-    //   try {
-    //     const response = await fetch("/api/tours");
-    //     const data = await response.json();
-    //     console.log("fetched firebase data :",data)
-    //     setTours(data);
-    //   } catch (error) {
-    //     console.error("Error fetching tours:", error);
-    //   } finally {
-    //     setLoading(false);
-    //   }
-    // }
 
     async function fetchTours() {
       try {
@@ -329,15 +317,14 @@ const List = () => {
           </div>
 
           <div className="tour-list-main-right-cards-wrapper">
-          
             {tours.map((tour, index) => (
-              <Link key={tour.id} href={`/tours/london/tour${index + 1}`}>
+              <Link key={tour.id} href={`/tours/london/${tour.tourSlug}`}>
                 <div className="tour-list-main-card">
                   <div className="tour-list-main-card-left-info">
                     <div className="tour-list-main-card-left-info-image">
                       <Image
-                        src={tour.image} // ✅ Dynamic Image
-                        alt={tour.tourName} // ✅ Dynamic Alt
+                        src={tour.image}
+                        alt={tour.tourName}
                         width={150}
                         height={140}
                       />
@@ -345,24 +332,27 @@ const List = () => {
                     <div className="tour-list-main-card-left-info-details">
                       <div className="tour-list-main-card-left-info-details-top">
                         <span className="info-details-top-activity">
-                          {tour.title} {/* ✅ Dynamic Activity Type */}
+                          {/* {tour.title} */}
+                          {tour.category ? tour.category : `Activity ${index + 1}`}
+                          
                         </span>
                         <span className="info-details-top-stars">
-                          {[...Array(Math.round(tour.stars))].map((_, i) => (
+                          {Array.from({
+                            length: Math.floor(Number(tour?.stars) || 0),
+                          }).map((_, i) => (
                             <IoMdStar key={i} />
                           ))}
                         </span>
                         <span className="info-details-top-reviews">
-                          ({tour.reviews} reviews) {/* ✅ Dynamic Reviews */}
+                          ({tour.reviews} reviews)
                         </span>
                       </div>
                       <div className="tour-list-main-card-left-info-details-middle">
-                        <h4>{tour.tourName}</h4> {/* ✅ Dynamic Tour Name */}
+                        <h4>{tour.tourName}</h4>
                       </div>
                       <div className="tour-list-main-card-left-info-details-bottom">
                         <span>
                           <MdOutlineAccessTime /> {tour.duration}{" "}
-                          {/* ✅ Dynamic Duration */}
                         </span>
                         {tour.transport && (
                           <span>
@@ -379,7 +369,8 @@ const List = () => {
                   </div>
                   <div className="tour-list-main-card-right-price">
                     <div className="featured-destinations-slider-footer-right">
-                      <h3>${tour.price.toFixed(2)}</h3> {/* ✅ Dynamic Price */}
+                      <h3>${Number(tour.price || 0).toFixed(2)}</h3>
+
                       <p className="mb-[5px]">per person</p>
                     </div>
                   </div>

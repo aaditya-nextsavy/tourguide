@@ -5,6 +5,8 @@ import Gallery from "@/components/Gallery";
 import Blogs from "@/components/home/Blogs";
 import RelatedTour from "@/components/listings/RelatedTour";
 
+
+
 const page = () => {
   return (
     <div className="tours-list-wrapper">
