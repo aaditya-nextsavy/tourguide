@@ -1,0 +1,191 @@
+{
+    "cities": [
+      {
+        "id": "london_1",
+        "slug": "london",
+        "name": "London",
+        "tours": [
+          {
+            "id": "tour_london_vintage_1",
+            "slug": "vintage-double-decker-bus-tour-thames-river-cruise",
+            "title": "Vintage Double Decker Bus Tour & Thames River Cruise",
+            "location": "Gothenburg",
+            "gallery": [
+              "/assets/media/details/london1/london1.png",
+             "/assets/media/details/london1/london2.png",
+             "/assets/media/details/london1/london3.png",
+             "/assets/media/details/london1/london4.png",
+             "/assets/media/details/london1/london5.png",
+             "/assets/media/details/london1/london6.png"
+            ],
+            "reviews": 348,
+            "stars": 4.7,
+            "duration":"3.5 hours",
+            "booking_data": {
+              "from_date": "2025-04-01",
+              "to_date": "2025-04-10",
+              "no_of_guests": 2,
+              "price_per_person": 78.91
+            },
+            
+            "tour_info": {
+              "description": {
+                "title": "Description",
+                "info": "<p>See the highlights of London via 2 classic modes of transport on this half-day adventure. First, you will enjoy great views of Westminster Abbey, the Houses of Parliament, and the London Eye, as you meander through the historic streets on board a vintage double decker bus.</p><p>Continue to see St. Paul’s Cathedral, Sir Christopher Wren’s architectural masterpiece, where Admirals Nelson and Wellington are buried, and Princess Diana and Prince Charles got married. Continue to the Tower of London, built nearly 1,000 years ago during the reign of William the Conqueror.</p><p>Home to the Crown Jewels, the Tower is protected by the famous Beefeaters, and the imposing palace has been used as a fortress and a prison throughout its history. Your guide will take you to Traitors Gate, where prisoners entered the Tower for the last time.</p><p>Next, take a short trip along the River Thames, passing Shakespeare’s Globe, Cleopatra’s Needle, and London Bridge, before arriving at Westminster Pier. Rejoin the bus and head for Buckingham Palace. Make your way to the perfect spot to watch the world famous Changing of the Guard ceremony as the soldiers, dressed in their fabulous tunics and busbies, march to military music.</p>"
+              },
+              "activity": {
+                "title": "Activity",
+                "subhead": "What you will do",
+                "list": [
+                  "Discover London on board a classic Routemaster vintage double decker bus",
+                  "Cruise down the River Thames",
+                  "See the Changing of the Guard",
+                  "Go to Westminster Abbey",
+                  "Listen to the chimes of Big Ben and see the Houses of Parliament"
+                ]
+              },
+              "inclusion": {
+                "title": "What is Included / Not Included",
+                "included": {
+                  "subhead": "Includes",
+                  "list": [
+                    "Double-decker Routemaster tour",
+                    "Short trip along the River Thames",
+                    "Changing of the Guard",
+                    "Gratuities"   
+                  ]
+                },
+                "not_included": {
+                  "subhead": "Not Included",
+                  "list": [
+                    "Double-decker Routemaster tour",
+                    "Short trip along the River Thames",
+                    "Changing of the Guard",
+                    "Gratuities"
+                  ]
+                }
+              },
+              "saftey": {
+                "title": "Safety Measures",
+                "subhead": "Health Precautions",
+                "list": [
+                  "All required protective equipment is provided",
+                  "All areas that customers touch are frequently cleaned",
+                  "You must keep social distance while in vehicles",
+                  "The number of visitors is limited to reduce crowds"
+                
+                ]
+              },
+              "details": {
+                "title": "Details",
+                "columns": [
+                  {
+                    "subhead": "Language",
+                    "list": ["English", "French"]
+                  },
+                  {
+                    "subhead": "Duration",
+                    "list": ["2 hours"]
+                  },
+                  {
+                    "subhead": "Number of People",
+                    "list": ["5 people"]
+                  }
+                ]
+              },  
+              "meeting_point": {
+                "subhead":"Meeting Point Address",
+                "address":["Meet your guide inside the west entrance of Altab Ali Park (Whitechapel Road). It's opposite the entrance to Aldgate East Tube Station and the Whitechapel Gallery. Look for a guide wearing SMT attire and holding a red SMT flag"],
+                "link":"https://maps.app.goo.gl/s54fq8VYUdv4kTDa7",
+                "google_maps": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7352.491964985041!2d-0.1306161969093401!3d51.50771191379841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1743080262963!5m2!1sen!2sin"
+              }
+
+            },
+            "related_tours_today": [
+              {
+                "image": "/assets/images/alaska.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "family Plan",
+                "stars": 4.5,
+                "reviews":548, 
+                "price_per_person": 25.00
+              },
+              {
+                "image": "/assets/images/australia.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "family Plan",
+                "stars": 4.5,
+                "reviews":548, 
+                "price_per_person": 25.00
+              }
+            ],
+            "related_tours_city": [
+              {
+                "image": "/assets/images/alaska.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "family Plan",
+                "stars": 4.5,
+                "reviews":548, 
+                "price_per_person": 25.00
+              },
+              {
+                "image": "/assets/images/australia.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "family Plan",
+                "stars": 4.5,
+                "reviews":548, 
+                "price_per_person": 25.00
+              }
+            ],
+            "customer_review":{
+              "score":4.30,
+              "reviews_count":854,
+              "stars":4
+
+            }
+          },
+          {
+            "id": "tour_2",
+            "slug": "",
+            "title": "",
+            "location": "",
+            "gallery": [],
+            "reviews": 0,
+            "stars": 0,
+            "booking_data": {
+              "from_date": "",
+              "to_date": "",
+              "no_of_guests": 0,
+              "price_per_person": 0
+            },
+            "info": {},
+            "related_tours_today": [],
+            "related_tours_city": []
+          }
+        ]
+      },
+
+      {
+        "id": "city_2",
+        "slug": "tokyo",
+        "name": "Tokyo",
+        "tours": []
+      },
+
+      {
+        "id": "city_3",
+        "slug": "alaska",
+        "name": "alaska",
+        "tours": []
+      }
+    ]
+  }
+  
